@@ -1,6 +1,7 @@
 
 import './App.css'
 import { Button } from "@/components/ui/button"
+import Hero from './components/custom/Hero'
 
 
 function App() {
@@ -8,8 +9,8 @@ function App() {
 
   return (
     <>
-    <h1 className='text-5xl text-center p-16'>Welcome to SafarMate</h1>
-   <Button>Subscribe</Button>
+        {/*Hero */}
+        <Hero/>
     </>
   )
 }
